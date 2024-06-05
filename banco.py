@@ -28,6 +28,8 @@ for linha in arquivoCSV:
 
 print(contas)
 
+contas[0]["saldo"] = 10000000
+
 # FAZER A VERIFICAÇÃO SE O USUÁRIO TEM O SALDO PARA PODER SACAR.
 contaUsuario = int(input("Digite o número da sua conta: "))
 indice = 0
@@ -52,3 +54,5 @@ while(True):
         extrato(contas[indiceConta])
     else:
         print("Opção inválida")
+
+
