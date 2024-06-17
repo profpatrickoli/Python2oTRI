@@ -28,8 +28,8 @@ class Conta:
     def limite(self, valor):
         self.__limite = valor
 
-# FAZER OS GETS E SETS DE TODOS OS 
-# ATRIBUTOS DA SUA CLASSE
+
+
 
 
 
